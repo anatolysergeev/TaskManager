@@ -7,7 +7,7 @@ import java.io.File;
 public class ServerGUI extends JPanel
                        implements ActionListener {
     Server server;
-    //test git
+
     JButton startServer;
     JButton stopServer;
     JButton chooseTask;
