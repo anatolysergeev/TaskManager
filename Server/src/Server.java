@@ -7,7 +7,7 @@ public class Server implements Runnable {
     ServerGUI out;
     InetAddress inetAddress;
     ServerSocket serverSocket;
-    //hello
+
     class serverTask implements Runnable {
         int idTask;
         Socket clientSocket;
