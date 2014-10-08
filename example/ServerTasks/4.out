@@ -1,0 +1,10 @@
+add_SOS: SOS3+ members all have to be integer or semi-continuous.
+
+Value of objective function: -93.00000000
+
+Actual values of the variables:
+x1                              0
+x2                              1
+x3                             30
+x4                              0
+x5                              1
