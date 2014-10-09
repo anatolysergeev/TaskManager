@@ -1,7 +1,7 @@
 import java.net.*;
 import java.io.*;
 
-public class Server implements Runnable {
+public class Server {
     int cntTasks;
     int portNumber;
     ServerGUI out;
@@ -74,10 +74,6 @@ public class Server implements Runnable {
         } catch (IOException e) {
             out.log.append(e.toString() + "\n");
         }
-    }
-
-    public void run() {
-
     }
 
     void addTask(File task, File result) {
